@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
         fputc(c, fptr);
         c = fgetc(f);
     }
-
+//JOnny
     printf("\nContents copied to %s", fptr);
 
     fclose(f);
