@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
         c = fgetc(f);
     }
 //JOnny
-    printf("\nContents copied to %s", fptr);
+    printf("\nCopiado a%s", fptr);
 
     fclose(f);
     fclose(fptr);
@@ -41,7 +41,7 @@ int main(int argc, char *argv[]) {
         c = fgetc(f);
     }
 
-    printf("\nContents copied to %s", q);
+    printf("\nCopiado a %s", q);
 
     fclose(f);
     fclose(q);
